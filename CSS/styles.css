@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 20px;
+  color: #40514E;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Marck Script', cursive;
+  color: #dc143c;
+}
+
+h2 {
+  font-family: 'Varela Round', sans-serif;
+  color: #4169e1;
+  font-weight: normal;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: 'Libre Baskerville', serif;
+  color: #a52a2a;
+}
+
+hr {
+  border: dotted #40514E 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 2;
+}
+ a{
+   color: #48d1cc;
+   margin: 10px 20px;
+   text-decoration:none;
+   font-family: 'Libre Baskerville', serif;
+
+}
+a:hover{
+  color: #fffff0;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-container {
+  background-color: #afeeee;
+  position: relative;
+  padding-top: 150px;
+}
+
+.middle-container {
+  margin: 100px 0;
+  font-size: 50%;
+}
+
+.bottom-container {
+  background-color: #afeeee;
+  padding: 50px 0 20px;
+}
+
+.intro {
+  width: 20%;
+  margin: auto;
+}
+
+.contact-number {
+  width: 30%;
+  margin: 40px auto 60px;
+}
+.copyright{
+  color: #fffff0;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.profile {
+  width: auto;
+}
+
+.giphy-embed {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.Profile-picture {
+  width: 25%;
+  float: right;
+  margin-left: 60px;
+}
+
+.btn {
+  background: #40e0d0;
+  background-image: -webkit-linear-gradient(top, #40e0d0, #3cb371);
+  background-image: -moz-linear-gradient(top, #40e0d0, #3cb371);
+  background-image: -ms-linear-gradient(top, #40e0d0, #3cb371);
+  background-image: -o-linear-gradient(top, #40e0d0, #3cb371);
+  background-image: linear-gradient(to bottom, #40e0d0, #3cb371);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Varela Round', sans-serif;
+  color: #2e282e;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #48d1cc 2px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #afeeee;
+  background-image: -webkit-linear-gradient(top, #afeeee, #48d1cc);
+  background-image: -moz-linear-gradient(top, #afeeee, #48d1cc);
+  background-image: -ms-linear-gradient(top, #afeeee, #48d1cc);
+  background-image: -o-linear-gradient(top, #afeeee, #48d1cc);
+  background-image: linear-gradient(to bottom, #afeeee, #48d1cc);
+  text-decoration: none;
+}
